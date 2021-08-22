@@ -17,7 +17,7 @@ s = "abcd"
 print(reverseString(s))
 
 
-# 実行形式
+# 実行
 # "abcd" → ""
 # "abc" → "d"
 # "ab" → "dc"

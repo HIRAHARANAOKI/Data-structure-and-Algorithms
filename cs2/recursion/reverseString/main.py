@@ -21,4 +21,3 @@ print(reverseString(s))
 # "abcd" → ""
 # "abc" → "d"
 # "ab" → "dc"
-# "a" → "dcb"

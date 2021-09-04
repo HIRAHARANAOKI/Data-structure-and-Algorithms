@@ -4,4 +4,7 @@ def lengthString(string):
         return 0
     return 1 + lengthString(string[1:])
 
-print(lengthString("hello")) # 5
+print(lengthString("hello"))
+
+
+

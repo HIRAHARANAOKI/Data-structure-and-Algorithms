@@ -8,3 +8,6 @@ def splitAndAddHelper(digits, sum):
         return sum
     return splitAndAddHelper(digits/10, sum + math.floor(digits%10))
 print(splitAndAdd(19))
+
+
+# aaa

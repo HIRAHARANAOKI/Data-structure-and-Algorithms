@@ -17,5 +17,3 @@ s = "abcd"
 print(reverseString(s))
 
 
-# 入出力
-# "abcd" → ""

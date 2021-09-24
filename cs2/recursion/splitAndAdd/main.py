@@ -10,4 +10,3 @@ def splitAndAddHelper(digits, sum):
 print(splitAndAdd(19))
 
 
-# aaa

@@ -8,13 +8,3 @@ def simpleSummation(count):
 
 print(simpleSummation(5)) #15
 
-# 3 までの総和を計算
-# simpleSummation(3)
-# 3 + simpleSummation(2)
-# 3 + (2 + simpleSummation(1))
-# 3 + (2 + (1 + simpleSummation(0)))
-# 3 + (2 + (1 + 0))
-# 3 + (2 + 1)
-# 3 + 3
-# 6
-

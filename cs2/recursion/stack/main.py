@@ -18,5 +18,3 @@ print(simpleSummation(5)) #15
 # 3 + 3
 # 6
 
-# 再帰とは違ってsimpleSummation(0)が最も先に評価される
-#

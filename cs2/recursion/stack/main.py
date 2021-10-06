@@ -6,5 +6,5 @@ def simpleSummation(count):
 
     return count + simpleSummation(count-1)
 
-print(simpleSummation(5)) #15
+print(simpleSummation(5))
 

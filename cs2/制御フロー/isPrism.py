@@ -20,3 +20,6 @@ print(isPrism(4), '4') # false
 print(isPrism(25), '25') # false
 print(isPrism(29), '29') # true
 print(isPrism(36), '36') # false
+# 出力のデータ型： bool
+
+

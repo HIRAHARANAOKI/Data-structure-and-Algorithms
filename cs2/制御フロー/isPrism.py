@@ -1,4 +1,5 @@
 # 素数かどうか判定する
+
 # 素数ならtrue, 素数でないならfalseを返す
 def isPrism(num):
     if num < 2:
@@ -20,3 +21,5 @@ print(isPrism(25), '25') # false
 print(isPrism(29), '29') # true
 print(isPrism(36), '36') # false
 # 出力のデータ型： bool
+
+

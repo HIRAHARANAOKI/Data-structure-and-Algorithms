@@ -34,6 +34,6 @@ def insertionSort(arrList):
             # 現在の値がA[j]よりも大きい場合、それは正しい位置にあるので、ループを終了してi+1に移動します。
             else: break
 
-print(insertarr)
-insertionSort(insertarr) # 昇順に並び替え
-print(insertarr) # ソートされた配列
+# print(insertarr)
+# insertionSort(insertarr) # 昇順に並び替え
+# print(insertarr) # ソートされた配列

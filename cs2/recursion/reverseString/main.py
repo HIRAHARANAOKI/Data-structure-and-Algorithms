@@ -1,19 +1,13 @@
-def reverseStringHelper(reversedString, leftString):
-
-    # ベースケース
+def reversedStringHelper(reversedString, leftString):
     if len(leftString) <= 0:
         return reversedString
+    print('left[0]+reversed:',leftString[0] + reversedString, 'left:[1:]',leftString[1:])
+    return reversedStringHelper(leftString[0] + reversedString , leftString[1:])
 
-    # print(reversedString, 'reversedString')
-    # print(leftString, 'leftString')
+def reversedString(string):
+    return reversedStringHelper(string[0], string[1:])
 
-    return reverseStringHelper(leftString[0] + reversedString, leftString[1:])
-
-def reverseString(string):
-   return reverseStringHelper(string[0], string[1:])
-
-
-s = "abcd"
-print(reverseString(s))
+reversedString('abcd')
+# print(reversedString('RareTECH'))
 
 

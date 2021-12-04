@@ -37,3 +37,5 @@ def insertionSort(arrList):
 # print(insertarr)
 # insertionSort(insertarr) # 昇順に並び替え
 # print(insertarr) # ソートされた配列
+
+
